@@ -1,0 +1,135 @@
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(46, 67, 4, 0.913);
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 252, 252);
+    font-size: 20px;
+}
+
+li a:hover{
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+}
+
+.header img {
+    opacity: 0.5;
+    margin: 0px 0px;
+}
+
+.first {
+    height: 10px; 
+    width: 10px;
+    background-color: black;
+    border-radius:50%;  
+    display: inline-block;
+}
+
+.second {
+    height: 10px; 
+    width: 10px;
+    background-color: white;
+    border-radius:50%;  
+    display: inline-block;
+}
+
+.dropdown-item {
+    list-style: none;
+}
+
+.portfolio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+cite img {
+    display:none;
+}
+
+cite:hover img {
+    display: block;
+}
+
+.col-sm-4 {
+    border-radius: 45px;
+}
+
+.col-sm-8 {
+    border-radius: 50px;
+}
+
+.footer {
+    background-color: greenyellow;
+    margin: 0;
+    padding: 50px;
+    bottom: 0;
+    height: 150px;
+    width: 1310px;
+    margin-left: -100px;
+    text-align: center;
+}
+
+.git:hover{
+    opacity: 0.5;
+}
+
+.html:hover{
+    opacity: 0.5;
+}
+.css:hover{
+    opacity: 0.5;
+}
+.js:hover{
+    opacity: 0.5;
+}
+.jquery:hover{
+    opacity: 0.5;
+}
+.react:hover{
+    opacity: 0.5;
+}
+.bs:hover{
+    opacity: 0.5;
+}
+.php:hover{
+    opacity: 0.5;
+}
+.sass:hover{
+    opacity: 0.5;
+}
+.ts:hover{
+    opacity: 0.5;
+}
+
+.face:hover{
+    opacity: 0.8;
+}
+
+.linkedin:hover{
+    opacity: 0.8;
+}
+
+.skype:hover{
+    opacity: 0.8;
+}
+
+.tele:hover{
+    opacity: 0.8;
+}
+
+.mail:hover{
+    opacity: 0.8;
+}
